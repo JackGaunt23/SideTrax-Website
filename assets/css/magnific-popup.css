@@ -69,7 +69,21 @@
 .mfp-auto-cursor .mfp-content {
   cursor: auto; }
 
-.mfp-close,
+.mfp-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
 .mfp-arrow,
 .mfp-preloader,
 .mfp-counter {
